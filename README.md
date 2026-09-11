@@ -7,7 +7,7 @@ Small command-line Java program for Advanced Java. It prints my name.
 Runs `cli.App`, which uses `NameGreeter` to print:
 
 ```
-Hello, my name is Top G.
+Hello, my name is ProCodingLegend.
 ```
 
 Change the name in `src/main/java/cli/App.java` if you want a different display name.
@@ -28,7 +28,7 @@ Change the name in `src/main/java/cli/App.java` if you want a different display 
 Expected program output:
 
 ```
-Hello, my name is Top G.
+Hello, my name is ProCodingLegend.
 ```
 
 ## Build and run with Docker
@@ -46,7 +46,7 @@ Example:
 $ docker build -t your-name-java-cli .
 [+] Building ...
 $ docker run --rm your-name-java-cli
-Hello, my name is Top G.
+Hello, my name is ProCodingLegend.
 ```
 
 That output should match what you see when you run `App` inside the IDE.

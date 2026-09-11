@@ -9,7 +9,7 @@ public final class App {
     }
 
     public static void main(String[] args) {
-        NameGreeter greeter = new NameGreeter("Top G");
+        NameGreeter greeter = new NameGreeter("ProCodingLegend");
         System.out.println(greeter.greeting());
     }
 }

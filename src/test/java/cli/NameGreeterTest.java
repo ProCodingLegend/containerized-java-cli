@@ -9,8 +9,8 @@ class NameGreeterTest {
 
     @Test
     void greetingIncludesTheProvidedName() {
-        NameGreeter greeter = new NameGreeter("Top G");
-        assertEquals("Hello, my name is Top G.", greeter.greeting());
+        NameGreeter greeter = new NameGreeter("ProCodingLegend");
+        assertEquals("Hello, my name is ProCodingLegend.", greeter.greeting());
     }
 
     @Test
